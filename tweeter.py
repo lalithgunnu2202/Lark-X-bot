@@ -20,7 +20,7 @@ client = OpenAI(
   api_key=config("API_KEY"),
 )
 tweet = None
-with open("journal_2.txt","r") as f:
+with open(f"journal_{n}.txt","r") as f:
     prompt = f.read()
     completion = client.chat.completions.create(
     extra_headers={
