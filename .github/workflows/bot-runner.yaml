@@ -2,7 +2,7 @@ name: Tweet Bot Automation
 
 on:
   schedule:
-    - cron: "0 2,8,14,22 * * *"  # every 6 hours UTC
+    - cron: "0 2,8,14,20 * * *"  # every 6 hours UTC
   workflow_dispatch:        # manual trigger
 
 jobs:
