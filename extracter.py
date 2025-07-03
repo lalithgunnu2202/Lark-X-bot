@@ -15,7 +15,7 @@ target_div = soup.find("div", class_="journal-list")
 
 if target_div:
     anchor_tags = target_div.find_all("a")
-    num = int(len(anchor_tags)/2)+1
+    num = int(len(anchor_tags)/2)
 else:
     print("Target div not found")
 
