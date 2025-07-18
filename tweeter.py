@@ -32,7 +32,7 @@ with open(f"journal_{n}.txt","r") as f:
     messages=[
         {
         "role": "user",
-        "content": f"In less than 150 words write this as tweet, {prompt}, plain English. Avoid headings or formatting. it should not seem like ai generation, dont use placeholders, donot mention chars count etc."
+        "content": f"In less than 270 characters write this as tweet, {prompt}, plain English. Avoid headings or formatting. it should not seem like ai generation, dont use placeholders, donot mention chars count etc."
         }
     ]
     )
